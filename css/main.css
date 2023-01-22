@@ -1,0 +1,45 @@
+  
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.parallax1{
+    background-image: url("../images/casa1.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    background-image: url("../images/casagrande.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titulo{
+    position: absolute;  /*Position the background text */  /*At the bottom. /*Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 50%; /* Full width */
+    padding: 20px; /* Some padding */
+
+}
+
+.section-1{
+    background-color: grey;
+    background-size: 100%;
+}
+
+.text-section-1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
