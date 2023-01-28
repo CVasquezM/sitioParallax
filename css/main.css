@@ -15,7 +15,7 @@ body{
 }
 
 .parallax2{
-    background-image: url("../images/casagrande.jpg");
+    background-image: url("../images/casa2.jpg");
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -25,12 +25,10 @@ body{
 }
 
 .titulo{
-    position: absolute;  /*Position the background text */  /*At the bottom. /*Use top:0 to append it to the top */
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
+    background: rgba(188, 237, 9, 0.8); /* Black background with 0.5 opacity */
+    color: #262626; /* Grey text */
     width: 50%; /* Full width */
-    padding: 20px; /* Some padding */
+    padding: 30px; /* Some padding */
 
 }
 
@@ -42,4 +40,10 @@ body{
 .text-section-1{
     padding-left: 300px;
     padding-right: 300px;
+}
+
+.navegacion{
+    background-color: rgba(188, 237, 9);
+    font-size: larger;
+
 }
